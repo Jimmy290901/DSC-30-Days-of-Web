@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Barebones Portfolio</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			header{
+				text-align:center;
+				margin-bottom:7vw;
+				/*margin-top: 1vw;*/
+			}
+			header a{
+				padding:10px;
+			}
+			body div{
+				margin-bottom:3vw;
+			}
+			table{
+				margin-left:auto;
+				margin-right:auto;
+			}
+			table th,td{
+				padding:50px;
+				border:5px solid white;				
+			}
+			table th:hover,td:hover{
+				padding:50px;
+				border:5px solid black;
+				background-color: white;
+				color: black;
+			}
+			.skills ul{
+				text-align: center;
+				list-style: inline;
+				margin-left:auto;
+				margin-right:auto;
+			}
+			.contact input[type=text]{
+				width:40%;
+			}
+		</style>
+	</head>
+
+	<body style="background-color: black; color: white; margin:5vw; margin-bottom:0vw; margin-top:2vw;text-align: center;">
+		
+		<!--HEADER SECTION (NavBar)-->
+		<header>
+			<a href="#about">ABOUT ME</a>
+			<a href="#achievements">ACHIEVEMENTS</a>
+			<a href="#skills">SKILLS</a>
+			<a href="#contact">CONTACT</a>
+		</header>
+
+		<!--ABOUT ME SECTION-->
+		<div class = "about">
+			<img src = "myProfilePic.jpg" alt = "My Image" style = "height:20%;width:20%;margin-bottom:3vw;">
+			<p>
+				Hi folks!<br><br><br>I am currently a Sophomore at Ahmedabad University, pursuing my Bachelors at CSE.<br>I am a Static Web Developer.<br>I am an ML and AI enthusiast.<br> I am also a Committee Member at IEEE SB @ AU.<br> I am also a Competitive Programmer at Codechef and Codeforces.<br>
+			</p>
+			<p>
+				<br>More than that, I am a die hard Harry Potter Fan!<br>If you are too, you might love this ending from the movie - "Harry Potter and the Deathly Hallows 2".<br>Happy Watching!<br>
+			</p>
+			<video width="30%" height="30%" controls>
+		      <source src="HarryPotterVideo.mp4" type="video/mp4">
+		      Your browser does not support the video tag.
+		    </video>
+		</div> 
+
+		<!--ACHIEVEMENTS SECTION-->
+		<div class = "achievements">
+			<h2>MY ACHIEVEMENTS</h2>
+			<table>
+				<tr style="font-size: 25px;background-color: #DC143C;">
+					<th>Achievements</th>
+					<th>Institution (if any)</th>
+					<th>Date</th>
+				</tr>
+				<tr>
+					<td>IEEE Student Branch AU Committee Member</td>
+					<td>Ahmedabad University</td>
+					<td>26-12-2020</td>
+				</tr>
+				<tr>
+					<td>NGO Worker (Social Media Manager, Research)</td>
+					<td>High On Life Foundation</td>
+					<td>04-10-2020</td>
+				</tr>
+				<tr>
+					<td>School Topper HSC</td>
+					<td>Maharaja Agrasen Vidyalaya (CBSE)</td>
+					<td>25-05-2019</td>
+				</tr>				
+			</table>
+		</div>
+
+		<!--SKILLS SECTION-->
+		<div class="skills">
+			<h2>MY SKILLS</h2>
+			<table>
+				<tr>
+					<td>Google Cloud</td>
+					<td>C++</td>
+					<td>Python</td>
+					<td>Java</td>
+					<td>C</td>
+					<td>HTMl</td>
+					<td>CSS</td>
+					<td>Bootstrap</td>
+				</tr>
+			</table>
+		</div>
+
+		<!--CONTACT ME-->
+		<div class="contact">
+			<h2>LET'S CONNECT</h2>
+			<form action="mailto:shubham290901@gmail.com" method="get">
+				<p><input name="parameter identifier" type="text" placeholder="First Name..."></p>
+				<p><input name="parameter identifier" type="text" placeholder="Last Name..."></p>
+				<p><input name="parameter identifier" type="text" placeholder="Email..."></p>
+				<p><input name="parameter identifier" type="text" placeholder="Contact Number..."></p>
+				<p><input type="submit" value="SUBMIT"></p>
+			</form>
+		</div>
+
+		<!--FOOTER-->
+		<footer style="padding-top: 100px;">
+			<a href="https://www.linkedin.com/in/shubham-jain-ba5218193/"><img src = "linkedin.png" alt = "LINKEDIN" style="width:2%;height: 2%;padding-left:175px;padding-right:150px;"></a>
+			<a href="https://www.instagram.com/iamsjshubham/"><img src = "instagram.png" alt = "INSTAGRAM" style="width:2%;height: 2%;padding-right:150px;"></a>
+			<a href="https://www.facebook.com/people/Shubham-Jain/100008648325568"><img src = "facebook.png" alt = "FACEBOOK" style="width:2%;height: 2%;padding-right:150px;"></a>
+			<a href="mailto:shubham290901@gmail.com"><img src = "gmail.png" alt = "GMAIL" style="width:2%;height: 2%;padding-right:150px;"></a>
+			<a href="https://github.com/Jimmy290901"><img src = "github.png" alt = "GITHUB" style="width:3%;height:5%;padding-right:150px;"></a>
+			<p>&#169; 2021 SHUBHAM JAIN @ AU AHMEDABAD</p>
+		</footer>
+	</body>
+</html>
